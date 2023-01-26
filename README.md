@@ -1,5 +1,9 @@
 # Learn CDK for Terraform
 
+This is an attempt to generate the same Terraform stack as https://github.com/kelvintaywl-cci/learn-terraform, via CDK for Terraform.
+
+## Flow
+
 ```console
 $ cdktf init --template=python --local
 
