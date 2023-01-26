@@ -3,7 +3,9 @@
   "app": "pipenv run python main.py",
   "projectId": "40ce100e-7ad7-43a4-84f8-1e9936c3004b",
   "sendCrashReports": "false",
-  "terraformProviders": [],
+  "terraformProviders": [
+    "hashicorp/pagerduty@~>2.5"
+  ],
   "terraformModules": [],
   "codeMakerOutput": "imports",
   "context": {
